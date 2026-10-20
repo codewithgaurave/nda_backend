@@ -1,0 +1,568 @@
+{
+  "courses": [
+    {
+      "title": "mkmm",
+      "code": "COURSE-7451",
+      "category": "NDA Written",
+      "duration": "6 Months",
+      "fees": 35000,
+      "batchStartDate": "Starts 1st of every month",
+      "timings": "08:30 AM - 02:30 PM",
+      "badge": "Popular",
+      "description": "mmm",
+      "highlights": [
+        "Daily 6-hour classes",
+        "Weekly OMR tests",
+        "Hostel facility"
+      ],
+      "image": "http://localhost:5001/uploads/image-removebg-preview-1792496035244-341825.png",
+      "isActive": true,
+      "_id": "c_1792496039898",
+      "createdAt": "2026-10-20T11:33:59.898Z"
+    },
+    {
+      "title": "test",
+      "code": "COURSE-6067",
+      "category": "NDA Written",
+      "duration": "6 Months",
+      "fees": 35000,
+      "batchStartDate": "Starts 1st of every month",
+      "timings": "08:30 AM - 02:30 PM",
+      "badge": "Popular",
+      "description": " test booki ",
+      "highlights": [
+        "Daily 6-hour classes",
+        "Weekly OMR tests",
+        "Hostel facility"
+      ],
+      "image": "http://localhost:5001/uploads/Screenshot_2026-09-24_220156-1792494960660-186437.png",
+      "isActive": true,
+      "_id": "c_1792494987872",
+      "createdAt": "2026-10-20T11:16:27.872Z"
+    },
+    {
+      "title": "NDA Written Super-50 Target Batch",
+      "code": "NDA-WRITTEN-2026",
+      "subtitle": "Comprehensive Preparation for UPSC NDA / NA Examination",
+      "category": "NDA Written",
+      "duration": "6 Months Intensive (also available in 3-Month crash)",
+      "fees": 38500,
+      "batchStartDate": "Starts 1st & 15th of Every Month",
+      "timings": "08:30 AM - 02:30 PM (Daily 6 Hours + Doubt Sessions)",
+      "badge": "High Selection Rate",
+      "batchSize": "Limited to 35 Cadets per Batch",
+      "description": "A rigorously engineered training program dedicated to mastering both Mathematics (Paper 1 - 300 Marks) and General Ability Test (Paper 2 - 600 Marks). Led by experienced ex-faculty and defense mentors with chapter-wise tests, daily current affairs analysis, and weekly UPSC-pattern mock tests.",
+      "highlights": [
+        "Complete UPSC NDA Syllabus coverage (Maths + GAT)",
+        "Daily 200+ Practice MCQs & Short-cut Tricks for Mathematics",
+        "Special English Fluency & Defence Current Affairs classes",
+        "Weekly 900-Marks OMR-based Full Length Mock Exams",
+        "Free SSB Screening & Physical Conditioning orientation included",
+        "Hostel, Mess & Dedicated Library facility with 24x7 Wi-Fi"
+      ],
+      "syllabus": [
+        {
+          "moduleName": "Mathematics (Paper I - 300 Marks)",
+          "topics": [
+            "Trigonometry & Inverse",
+            "Calculus (Diff & Integral)",
+            "Matrices & Determinants",
+            "2D & 3D Geometry",
+            "Vectors, Probability & Statistics"
+          ]
+        },
+        {
+          "moduleName": "English (Paper II Part A - 200 Marks)",
+          "topics": [
+            "Grammar & Spotting Errors",
+            "Vocabulary & Synonyms/Antonyms",
+            "Idioms & Phrases",
+            "Comprehension passages",
+            "Sentence Ordering & Cloze Test"
+          ]
+        },
+        {
+          "moduleName": "General Knowledge & Science (Paper II Part B - 400 Marks)",
+          "topics": [
+            "Physics & Chemistry Concepts",
+            "General Science & Biology",
+            "Indian History & Freedom Struggle",
+            "Geography & Defense Geo-strategy",
+            "Indian Polity, Economy & International Affairs"
+          ]
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "_id": "c_1",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "SSB 14-Days Comprehensive Interview Bootcamp",
+      "code": "SSB-14DAYS-MASTERCLASS",
+      "subtitle": "Rigorous 14-Day Simulation by Ex-SSB Assessors (IO, GTO, Psych)",
+      "category": "SSB 14 Days Training",
+      "duration": "14 Days Residential / Non-Residential",
+      "fees": 24500,
+      "batchStartDate": "Batches begin every Monday",
+      "timings": "06:00 AM - 07:30 PM (End-to-End Military Routine)",
+      "badge": "Assessed by Ex-Col / Brigadiers",
+      "batchSize": "20 Candidates per Sub-group",
+      "description": "India's premier SSB training capsule conducted on a real full-scale replica GTO obstacle ground. Personalized psych dossier analysis, 1-on-1 mock interviews by retired Board Presidents and Interviewing Officers, and daily group discussions.",
+      "highlights": [
+        "Day-1 Screening Mastery: OIR Tests (Verbal/Non-Verbal) & PPDT Narration / Discussion",
+        "Complete Psychological Battery: TAT (12 stories), WAT (60 words), SRT (60 situations), Self Description (SD)",
+        "100% Outdoor GTO Ground: PGT, HGT, Snake Race, FGT, Command Task & 10 Individual Obstacles",
+        "Personal Mock Interview with individual feedback & PIQ Form optimization",
+        "Daily Current Affairs, Group Discussions (GD), and Military Lecturettes with video feedback",
+        "Full Board Conference Simulation with personalized Officers' assessment report"
+      ],
+      "syllabus": [
+        {
+          "moduleName": "Phase 1: Stage I Screening (Day 1 - 2)",
+          "topics": [
+            "OIR Speed Drills & Techniques",
+            "Perception & Story Writing on hazy slides",
+            "Effective Narration within 1 Minute",
+            "Group Discussion & Group Consensus tactics"
+          ]
+        },
+        {
+          "moduleName": "Phase 2: Psychological Testing (Day 3 - 5)",
+          "topics": [
+            "TAT (Thematic Apperception Test) positive officer attributes",
+            "WAT speed & spontaneous response formulation",
+            "SRT realistic decision-making & resourcefulness",
+            "SD (Self Description) authenticity & self-awareness"
+          ]
+        },
+        {
+          "moduleName": "Phase 3: GTO Ground Testing (Day 6 - 9)",
+          "topics": [
+            "PGT (Progressive Group Task) fulcrum & cantilever techniques",
+            "HGT (Half Group Task) & Snake Race teamwork",
+            "Lecturette topic selection & commanding delivery",
+            "Individual Obstacles (Tiger Leap, Tarzan Swing, Commando Walk)",
+            "Command Task leadership under time pressure"
+          ]
+        },
+        {
+          "moduleName": "Phase 4: Interview & Conference (Day 10 - 14)",
+          "topics": [
+            "Personal Interview with Ex-IO (45-60 min)",
+            "PIQ (Personal Information Questionnaire) audit",
+            "Rapid fire questions on Academics, Family, Hobbies & Current Geopolitics",
+            "Conference Day demeanor & final recommendation advice"
+          ]
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "_id": "c_2",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    }
+  ],
+  "notices": [
+    {
+      "title": "test notiece ",
+      "category": "New Batch Alert",
+      "date": "20 Oct 2026",
+      "description": " done ",
+      "isUrgent": false,
+      "linkUrl": "http://localhost:5001/uploads/Untitled_document__6_-1792495645410-627561.pdf",
+      "isActive": true,
+      "_id": "n_1792495667549",
+      "createdAt": "2026-10-20T11:27:47.549Z"
+    },
+    {
+      "title": "UPSC NDA & NA (I) 2026 Official Notification Released - Registration Open",
+      "category": "Exam Notification",
+      "date": "24 Oct 2026",
+      "description": "Union Public Service Commission has released the official notification for NDA & NA examination. Candidates between 16.5 and 19.5 years can apply online. Last date of online application submission is approaching.",
+      "isUrgent": true,
+      "linkUrl": "https://upsc.gov.in",
+      "isActive": true,
+      "_id": "n_1",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "SSB 14-Days Intensive Bootcamp: Next Batch Commences This Monday",
+      "category": "New Batch Alert",
+      "date": "28 Oct 2026",
+      "description": "New batch for candidates with upcoming SSB Call Letters (Army / Navy / Air Force Selection Boards). On-ground GTO obstacles slots are strictly limited to maintain individual mentoring.",
+      "isUrgent": true,
+      "linkUrl": "#courses",
+      "isActive": true,
+      "_id": "n_2",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "Selection Results: 14 Cadets Recommended from Trishul Academy in 154 NDA Course",
+      "category": "Result",
+      "date": "18 Oct 2026",
+      "description": "Hearty congratulations to our recommended cadets for clearing the SSB interview and medical board for 154th NDA Course. Salute to their hard work and officer qualities!",
+      "isUrgent": false,
+      "linkUrl": "#gallery",
+      "isActive": true,
+      "_id": "n_3",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "SSB Call Letters for CDS 2026 / AFCAT Released by Services Selection Board",
+      "category": "SSB Call Letter",
+      "date": "12 Oct 2026",
+      "description": "Candidates are advised to choose their SSB center and dates immediately on Join Indian Army / Navy / Airforce recruitment portals.",
+      "isUrgent": false,
+      "linkUrl": "https://joinindianarmy.nic.in",
+      "isActive": true,
+      "_id": "n_4",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "test",
+      "slug": "vkraj",
+      "category": "SSB Interview Guide",
+      "summary": "test vkraj",
+      "content": "<p>&nbsp;hello bhai kese ho&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 12pt;\"><strong>&nbsp;bolo helo&nbsp;</strong></span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 24pt;\"><strong>hhhhhh</strong></span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-size: 24pt;\"><strong>nnj<s>jjjj</s></strong></span></p>",
+      "author": {
+        "name": "Col. Rajesh Sharma (Retd.)",
+        "designation": "Chief SSB Mentor"
+      },
+      "readTime": "5 min read",
+      "tags": [
+        "SSB Interview",
+        "Screening",
+        "NDA 2026",
+        "NDA Written 2026",
+        "Group Discussion",
+        "hhh"
+      ],
+      "coverImage": "http://localhost:5001/uploads/3rd_year_Online_class-1792500307481-135871.png",
+      "isPublished": true,
+      "_id": "b_1792500311715",
+      "createdAt": "2026-10-20T12:45:11.715Z"
+    },
+    {
+      "title": "Top 10 Officer Like Qualities (OLQs) Assessors Look For in SSB Interview",
+      "slug": "top-10-officer-like-qualities-olqs-ssb",
+      "category": "SSB Interview Guide",
+      "summary": "Explore the core factor-wise breakdown of 15 OLQs with practical daily habits to cultivate leadership, initiative, and determination.",
+      "content": "<h2>Introduction to 15 Officer Like Qualities</h2><p>The Services Selection Board evaluates candidates across 4 key factors of personality.</p><ul><li><strong>Factor 1: Planning and Organising:</strong> Effective Intelligence, Reasoning Ability, Organising Ability, Power of Expression.</li><li><strong>Factor 2: Social Adjustment:</strong> Social Adaptability, Cooperation, Sense of Responsibility.</li><li><strong>Factor 3: Social Effectiveness:</strong> Initiative, Self Confidence, Speed of Decision, Ability to Influence the Group, Liveliness.</li><li><strong>Factor 4: Dynamic:</strong> Determination, Courage, Stamina.</li></ul><blockquote>Always be genuine in your responses and let your natural personality shine during GTO and Personal Interview.</blockquote>",
+      "author": {
+        "name": "Col. Rajesh Sharma (Retd.)",
+        "designation": "Chief SSB Mentor"
+      },
+      "readTime": "7 min read",
+      "tags": [
+        "SSB Interview",
+        "OLQ",
+        "Officer Qualities",
+        "NDA 2026"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
+      "isPublished": true,
+      "_id": "b_1792500052989",
+      "createdAt": "2026-10-20T12:40:52.989Z"
+    },
+    {
+      "title": "Cracking PPDT in SSB: How to Write Convincing Stories & Lead the GD",
+      "slug": "cracking-ppdt-ssb-story-writing-group-discussion",
+      "category": "SSB Interview Guide",
+      "summary": "The screening test filters out over 60% of candidates on Day 1. Learn the exact psych formula for perceiving the slide, identifying the central character, and presenting a constructive action plan.",
+      "content": "\n### Understanding the Stage-1 Screening Test\n\nStage-1 of the Services Selection Board (SSB) is the most critical hurdle. Out of a reporting batch of 150-200 aspirants, typically only 35-50 make it to Stage-2. The Picture Perception and Description Test (PPDT) holds the key.\n\n#### 1. The 30 Seconds Observation\nWhen the hazy slide appears on the screen for 30 seconds:\n- **Do not panic** if the picture is blurred or ambiguous; it is intentionally made so!\n- Note the number of characters, their approximate age, gender, and moods.\n- Choose your **central character (hero)** who reflects positive, proactive officer-like qualities.\n\n#### 2. The 4-Minute Story Structure\nYour story must answer three fundamental questions:\n1. **What led to the situation?** (Past context - 15% of the story)\n2. **What is currently happening?** (Present execution - 70% of the story)\n3. **What was the final positive outcome?** (Future resolution - 15% of the story)\n\n#### 3. Individual Narration & Group Discussion\n- Speak clearly in a firm, audible voice without looking at the Assessors. Look at your fellow group members.\n- Complete your narration within 50 to 60 seconds.\n- In the GD, be a **contributor, not a fish-market screecher**. Give valid logical points, support others when they propose sensible ideas, and help steer the group toward a unified common story.\n    ",
+      "author": {
+        "name": "Col. Rajesh Sharma (Retd.)",
+        "designation": "Ex-President 11 SSB Allahabad"
+      },
+      "readTime": "6 min read",
+      "tags": [
+        "SSB",
+        "PPDT",
+        "Screening",
+        "Officer Qualities"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
+      "isPublished": true,
+      "_id": "b_1",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "Top 15 Officer Like Qualities (OLQs) and How Assessors Test Them in GTO Ground",
+      "slug": "top-15-officer-like-qualities-olqs-gto-ground",
+      "category": "SSB Interview Guide",
+      "summary": "A deep-dive analysis into the 4 factors of OLQs: Planning & Organizing, Social Adjustment, Social Effectiveness, and Dynamic Energy.",
+      "content": "\n### What are OLQs?\nThe armed forces look for raw leadership material that can be honed into commissioned officers at the National Defence Academy (NDA) or Indian Military Academy (IMA).\n\nThe 15 OLQs are divided into four main factors:\n\n#### Factor I: Planning and Organizing\n- Effective Intelligence\n- Reasoning Ability\n- Organizing Ability\n- Power of Expression\n\n#### Factor II: Social Adjustment\n- Social Adaptability\n- Cooperation\n- Sense of Responsibility\n\n#### Factor III: Social Effectiveness\n- Initiative\n- Self Confidence\n- Speed of Decision\n- Ability to Influence the Group\n- Liveliness\n\n#### Factor IV: Dynamic Qualities\n- Determination\n- Courage\n- Stamina\n\nIn the GTO ground during PGT (Progressive Group Task) and Command Task, the GTO observes whether you prioritize the group's mission over personal glory, handle helping materials (plank, balli, rope) with common sense, and keep calm under stress.\n    ",
+      "author": {
+        "name": "Lt. Col. Vikramaditya Rathore",
+        "designation": "Ex-Senior GTO, 33 SSB Bhopal"
+      },
+      "readTime": "8 min read",
+      "tags": [
+        "OLQs",
+        "GTO Ground",
+        "Leadership",
+        "Armed Forces"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=80",
+      "isPublished": true,
+      "_id": "b_2",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "How to Score 200+ in NDA Mathematics: Topic-Wise Weightage & Strategy",
+      "slug": "score-200-plus-nda-mathematics-strategy",
+      "category": "NDA Written Strategy",
+      "summary": "Master the high-yield chapters: Calculus, Trigonometry, and Probability. Learn time-saving algebraic hacks and negative marking avoidance.",
+      "content": "\n### Cracking the 300-Mark Mathematics Paper\n\nNDA Mathematics Paper-1 contains 120 questions carrying 2.5 marks each with 0.83 negative marks for every incorrect answer. You have 150 minutes (2.5 hours).\n\n#### High Weightage Priority Chapters:\n1. **Trigonometry & Inverse Trig**: 15 - 20 questions\n2. **Matrices & Determinants**: 10 - 12 questions (high accuracy, very scoring)\n3. **Calculus (Limits, Continuity, Differentiation, Definite Integrals)**: 25 - 30 questions\n4. **Probability & Statistics**: 12 - 16 questions\n5. **Vectors & 3D Geometry**: 10 - 14 questions\n\n#### The 3-Round Strategy during Exam:\n- **Round 1 (First 50 mins):** Solve all formula-based, direct questions. Target 40 questions with 95% accuracy.\n- **Round 2 (Next 60 mins):** Attempt moderately calculation-intensive problems.\n- **Round 3 (Last 30 mins):** Re-check and tackle tough questions without guessing blindly!\n    ",
+      "author": {
+        "name": "Prof. Aniruddh Dixit",
+        "designation": "Head of Mathematics Department"
+      },
+      "readTime": "5 min read",
+      "tags": [
+        "NDA",
+        "Mathematics",
+        "UPSC",
+        "Exam Strategy"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=800&q=80",
+      "isPublished": true,
+      "_id": "b_3",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    }
+  ],
+  "gallery": [
+    {
+      "title": "test gallery ",
+      "category": "GTO Obstacle Ground",
+      "imageUrl": "http://localhost:5001/uploads/Screenshot_2026-09-26_190803-1792495110955-513557.png",
+      "caption": "teste 2",
+      "featured": true,
+      "_id": "g_1792495117297",
+      "createdAt": "2026-10-20T11:18:37.297Z"
+    },
+    {
+      "title": "Full-Scale GTO Ground: Progressive Group Task (PGT)",
+      "category": "GTO Obstacle Ground",
+      "imageUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80",
+      "caption": "Cadets practicing bridging techniques and cantilevers on real obstacle structures under GTO supervision.",
+      "featured": true,
+      "_id": "g_1",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "Individual Obstacles (Tiger Leap & Tarzan Swing)",
+      "category": "GTO Obstacle Ground",
+      "imageUrl": "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=900&q=80",
+      "caption": "Developing physical courage, stamina, and agility on standard SSB obstacle course.",
+      "featured": true,
+      "_id": "g_2",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "Personal Interview Simulation Room with Ex-Assessor",
+      "category": "SSB Mock Interview",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80",
+      "caption": "One-on-one deep interview simulation with feedback on body language, PIQ, and spontaneous articulation.",
+      "featured": true,
+      "_id": "g_3",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "Smart Audio-Visual NDA Classroom & Doubt Clearing Desk",
+      "category": "Smart Classrooms",
+      "imageUrl": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=900&q=80",
+      "caption": "Interactive digital boards, daily problem solving, and chapter-wise test evaluations.",
+      "featured": true,
+      "_id": "g_4",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "Recommended Cadets Celebration & Felicitations",
+      "category": "Recommended Cadets",
+      "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
+      "caption": "Our star cadets heading to National Defence Academy (Khadakwasla) and Air Force Academy (Dundigal).",
+      "featured": true,
+      "_id": "g_5",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "title": "Morning Physical Fitness, Cross-Country & Military Drill",
+      "category": "Physical Training & Drill",
+      "imageUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=900&q=80",
+      "caption": "Daily 06:00 AM conditioning drills ensuring medical fitness and peak stamina.",
+      "featured": false,
+      "_id": "g_6",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    }
+  ],
+  "enquiries": [
+    {
+      "name": "vkraj",
+      "phone": "2222222222",
+      "email": "chaurasiyavivek657@gmail",
+      "courseInterested": "SSB 14 Days Training",
+      "city": "AMBEDKAR NAGAR",
+      "qualification": "12th Appearing (PCM)",
+      "targetExamYear": "2026",
+      "message": "Target Wing: Indian Army | Hostel Needed: Yes | Preferred Batch: Upcoming Monday Batch | Notes: 222",
+      "_id": "e_1792498086421",
+      "status": "Contacted",
+      "createdAt": "2026-10-20T12:08:06.421Z",
+      "adminNotes": " hhhhh",
+      "updatedAt": "2026-10-20T12:08:47.557Z"
+    },
+    {
+      "email": "cadet@test.com",
+      "message": "Testing contact API endpoint",
+      "name": "Test Cadet",
+      "courseInterested": "NDA Written Super-50 Batch",
+      "phone": "9876543210",
+      "_id": "e_1792496771141",
+      "status": "Pending",
+      "createdAt": "2026-10-20T11:46:11.141Z"
+    },
+    {
+      "name": "vivek",
+      "phone": "+911234567891",
+      "email": "chaurasiyavivek657@gmail",
+      "courseInterested": "SSB 14 Days Training",
+      "city": "AMBEDKAR NAGAR",
+      "qualification": "12th Appearing (PCM)",
+      "targetExamYear": "2027",
+      "message": "Target Wing: Indian Air Force | Hostel Needed: Yes | Preferred Batch: Upcoming Monday Batch | Notes: ijh",
+      "_id": "e_1792496766670",
+      "status": "Pending",
+      "createdAt": "2026-10-20T11:46:06.670Z"
+    },
+    {
+      "name": "vivek",
+      "phone": "+911234567891",
+      "email": "chaurasiyavivek657@gmail",
+      "courseInterested": "NDA Foundation 2-Year Program",
+      "message": "kjhv",
+      "_id": "e_1792496628918",
+      "status": "Pending",
+      "createdAt": "2026-10-20T11:43:48.918Z"
+    },
+    {
+      "name": "Cadet Samar Pratap",
+      "phone": "+91 9988776655",
+      "email": "samar@example.com",
+      "courseInterested": "SSB 14 Days Training",
+      "city": "Dehradun",
+      "message": "Interested in next batch",
+      "_id": "e_1792480918639",
+      "status": "Pending",
+      "createdAt": "2026-10-20T07:21:58.639Z"
+    },
+    {
+      "name": "Aarav Pratap Singh",
+      "phone": "+91 98765 43210",
+      "email": "aarav.singh@example.com",
+      "courseInterested": "SSB 14 Days Training",
+      "city": "Jaipur, Rajasthan",
+      "qualification": "12th Appearing (PCM)",
+      "targetExamYear": "2026",
+      "message": "I have qualified the NDA written exam and looking for immediate SSB 14 days training batch with hostel facility.",
+      "status": "Pending",
+      "adminNotes": "Candidate called today, interested in next Monday batch.",
+      "_id": "e_1",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "name": "Kavya Deshmukh",
+      "phone": "+91 98112 33445",
+      "email": "kavya.d@example.com",
+      "courseInterested": "NDA Written Super-50 Batch",
+      "city": "Pune, Maharashtra",
+      "qualification": "Class 11th passed",
+      "targetExamYear": "2026",
+      "message": "Want to prepare for NDA-I 2026. Please share hostel details and scholarship test dates.",
+      "status": "Contacted",
+      "adminNotes": "Sent prospectus and syllabus breakdown via WhatsApp.",
+      "_id": "e_2",
+      "createdAt": "2026-10-20T06:47:19.551Z"
+    },
+    {
+      "name": "Rohan Verma",
+      "phone": "+91 97654 11223",
+      "email": "rohan.v@example.com",
+      "courseInterested": "SSB 14 Days Training",
+      "city": "Lucknow, Uttar Pradesh",
+      "qualification": "B.Tech / CDS Aspirant",
+      "targetExamYear": "2026",
+      "message": "Need specialized GTO obstacle training and psychological test evaluation.",
+      "status": "Enrolled",
+      "adminNotes": "Enrolled for upcoming batch. Seat confirmed.",
+      "_id": "e_3",
+      "createdAt": "2026-10-20T06:47:19.552Z"
+    }
+  ],
+  "admins": [
+    {
+      "_id": "a_1",
+      "name": "Commandant Admin",
+      "email": "admin@ndassb.academy",
+      "password": "$2b$10$o0M2h2ap8h5Tdfoax4INq.87vrYsNja5rhgS0061AWe19ga.d7iJq",
+      "role": "Super Admin",
+      "createdAt": "2026-10-20T06:47:19.552Z"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "hello",
+      "email": "hello@gmail.com",
+      "phone": "789654125",
+      "course": "NDA Written Exam Preparation Course",
+      "message": "loijh",
+      "_id": "con_1792510890238",
+      "status": "Pending",
+      "createdAt": "2026-10-20T15:41:30.238Z"
+    },
+    {
+      "name": "vkra",
+      "email": "flite@gamil.com",
+      "phone": "+917068767516",
+      "course": "NDA Written Exam Preparation Course",
+      "message": "kijh",
+      "_id": "con_1792498033845",
+      "status": "Pending",
+      "createdAt": "2026-10-20T12:07:13.845Z"
+    },
+    {
+      "name": "vivek",
+      "email": "chaurasiyavivek657@gmail",
+      "phone": "+911234567891",
+      "course": "NDA Written Exam Preparation Course",
+      "message": "mn",
+      "_id": "con_1792497547602",
+      "status": "Closed",
+      "createdAt": "2026-10-20T11:59:07.602Z",
+      "adminNotes": "",
+      "updatedAt": "2026-10-20T12:06:51.121Z"
+    },
+    {
+      "name": "Abhimanyu Chauhan",
+      "email": "cadet@example.com",
+      "phone": "+91 98765 43210",
+      "course": "NDA Written Exam Preparation Course",
+      "message": "Interested in hostel fees and batch start date",
+      "_id": "con_1792497456118",
+      "status": "Pending",
+      "createdAt": "2026-10-20T11:57:36.119Z"
+    },
+    {
+      "name": "Abhimanyu Chauhan",
+      "email": "cadet@example.com",
+      "phone": "+91 98765 43210",
+      "course": "NDA Written Exam Preparation Course",
+      "message": "Ask about batch start date, hostel fees, syllabus...",
+      "_id": "con_1792497307540",
+      "status": "Pending",
+      "createdAt": "2026-10-20T11:55:07.540Z"
+    }
+  ]
+}
