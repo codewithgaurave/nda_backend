@@ -200,11 +200,29 @@ const dataService = {
   async getBlogBySlug(slug) {
     if (getIsMongoConnected()) {
       const isObjectId = mongoose.isValidObjectId(slug);
-      const query = isObjectId ? { $or: [{ slug }, { _id: slug }] } : { slug };
-      return await Blog.findOne(query);
+      let blog = null;
+      if (isObjectId) {
+        blog = await Blog.findOne({ $or: [{ slug }, { _id: slug }] });
+      }
+      if (!blog) {
+        blog = await Blog.findOne({ slug: new RegExp(`^${slug}$`, 'i') });
+      }
+      if (!blog) {
+        const cleaned = slug.replace(/[-_]?blog$/i, '');
+        if (cleaned && cleaned !== slug) {
+          blog = await Blog.findOne({ slug: new RegExp(`^${cleaned}$`, 'i') });
+        }
+      }
+      return blog;
     }
     const store = readLocalStore();
-    return (store.blogs || []).find(b => b.slug === slug || b._id === slug);
+    const cleanLower = slug.toLowerCase();
+    return (store.blogs || []).find(b => 
+      b.slug === slug || 
+      b._id === slug || 
+      (b.slug && b.slug.toLowerCase() === cleanLower) ||
+      (b.slug && cleanLower.startsWith(b.slug.toLowerCase()))
+    );
   },
 
   async createBlog(data) {
