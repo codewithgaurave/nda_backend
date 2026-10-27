@@ -18,8 +18,19 @@ const courseSchema = new mongoose.Schema({
   },
   category: {
     type: String,
-    enum: ['NDA Written', 'SSB 14 Days Training', 'CDS / AFCAT', 'Foundation'],
-    default: 'NDA Written'
+    enum: [
+      'Offline Mode SSB',
+      'Online Mode SSB',
+      'NDA & CDS Written',
+      'SSB Offline',
+      'SSB Online',
+      'Written Exam',
+      'NDA Written',
+      'SSB 14 Days Training',
+      'CDS / AFCAT',
+      'Foundation'
+    ],
+    default: 'Offline Mode SSB'
   },
   duration: {
     type: String,

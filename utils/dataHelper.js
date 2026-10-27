@@ -197,7 +197,7 @@ const dataService = {
     return store.blogs || [];
   },
 
-  async getBlogBySlug(slug) {
+  async getBlogBySlug(slug, incrementView = false) {
     if (getIsMongoConnected()) {
       const isObjectId = mongoose.isValidObjectId(slug);
       let blog = null;
@@ -213,25 +213,56 @@ const dataService = {
           blog = await Blog.findOne({ slug: new RegExp(`^${cleaned}$`, 'i') });
         }
       }
+      if (blog && incrementView) {
+        blog.views = (blog.views || 0) + 1;
+        await blog.save();
+      }
       return blog;
     }
     const store = readLocalStore();
     const cleanLower = slug.toLowerCase();
-    return (store.blogs || []).find(b => 
+    const blog = (store.blogs || []).find(b => 
       b.slug === slug || 
       b._id === slug || 
       (b.slug && b.slug.toLowerCase() === cleanLower) ||
       (b.slug && cleanLower.startsWith(b.slug.toLowerCase()))
     );
+    if (blog && incrementView) {
+      blog.views = (blog.views || 0) + 1;
+      writeLocalStore(store);
+    }
+    return blog;
+  },
+
+  async incrementBlogShare(idOrSlug) {
+    if (getIsMongoConnected()) {
+      const blog = await Blog.findOne({ $or: [{ _id: idOrSlug }, { slug: idOrSlug }] });
+      if (blog) {
+        blog.shares = (blog.shares || 0) + 1;
+        await blog.save();
+        return blog;
+      }
+      return null;
+    }
+    const store = readLocalStore();
+    const blog = (store.blogs || []).find(b => b._id === idOrSlug || b.slug === idOrSlug);
+    if (blog) {
+      blog.shares = (blog.shares || 0) + 1;
+      writeLocalStore(store);
+      return blog;
+    }
+    return null;
   },
 
   async createBlog(data) {
     if (getIsMongoConnected()) {
-      return await Blog.create(data);
+      return await Blog.create({ ...data, views: data.views || 0, shares: data.shares || 0 });
     }
     const store = readLocalStore();
     const newBlog = {
       ...data,
+      views: data.views || 0,
+      shares: data.shares || 0,
       _id: 'b_' + Date.now(),
       slug: data.slug || data.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
       createdAt: new Date().toISOString()

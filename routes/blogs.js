@@ -23,14 +23,27 @@ router.get('/admin', authMiddleware, async (req, res) => {
   }
 });
 
-// GET /api/blogs/:slug (Public)
+// GET /api/blogs/:slug (Public - increments view count)
 router.get('/:slug', async (req, res) => {
   try {
-    const blog = await dataService.getBlogBySlug(req.params.slug);
+    const blog = await dataService.getBlogBySlug(req.params.slug, true); // true = increment view
     if (!blog) {
       return res.status(404).json({ success: false, message: 'Blog article not found' });
     }
     res.json({ success: true, data: blog });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+});
+
+// POST /api/blogs/:id/share (Public - increments share count)
+router.post('/:id/share', async (req, res) => {
+  try {
+    const blog = await dataService.incrementBlogShare(req.params.id);
+    if (!blog) {
+      return res.status(404).json({ success: false, message: 'Blog article not found' });
+    }
+    res.json({ success: true, shares: blog.shares || 1 });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });
   }

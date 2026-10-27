@@ -1,165 +1,83 @@
 {
   "courses": [
     {
-      "title": "mkmm",
-      "code": "COURSE-7451",
-      "category": "NDA Written",
-      "duration": "6 Months",
-      "fees": 35000,
-      "batchStartDate": "Starts 1st of every month",
-      "timings": "08:30 AM - 02:30 PM",
-      "badge": "Popular",
-      "description": "mmm",
-      "highlights": [
-        "Daily 6-hour classes",
-        "Weekly OMR tests",
-        "Hostel facility"
-      ],
-      "image": "http://localhost:5001/uploads/image-removebg-preview-1792496035244-341825.png",
-      "isActive": true,
-      "_id": "c_1792496039898",
-      "createdAt": "2026-10-20T11:33:59.898Z"
-    },
-    {
-      "title": "test",
-      "code": "COURSE-6067",
-      "category": "NDA Written",
-      "duration": "6 Months",
-      "fees": 35000,
-      "batchStartDate": "Starts 1st of every month",
-      "timings": "08:30 AM - 02:30 PM",
-      "badge": "Popular",
-      "description": " test booki ",
-      "highlights": [
-        "Daily 6-hour classes",
-        "Weekly OMR tests",
-        "Hostel facility"
-      ],
-      "image": "http://localhost:5001/uploads/Screenshot_2026-09-24_220156-1792494960660-186437.png",
-      "isActive": true,
-      "_id": "c_1792494987872",
-      "createdAt": "2026-10-20T11:16:27.872Z"
-    },
-    {
-      "title": "NDA Written Super-50 Target Batch",
-      "code": "NDA-WRITTEN-2026",
-      "subtitle": "Comprehensive Preparation for UPSC NDA / NA Examination",
-      "category": "NDA Written",
-      "duration": "6 Months Intensive (also available in 3-Month crash)",
-      "fees": 38500,
+      "title": "Offline Mode SSB (10-Day Intensive)",
+      "code": "SSB-OFFLINE-10D",
+      "subtitle": "10-Day Intensive SSB Preparation Programme on Real Ground",
+      "category": "Offline Mode SSB",
+      "duration": "10-Day Intensive",
+      "fees": 25000,
       "batchStartDate": "Starts 1st & 15th of Every Month",
-      "timings": "08:30 AM - 02:30 PM (Daily 6 Hours + Doubt Sessions)",
-      "badge": "High Selection Rate",
-      "batchSize": "Limited to 35 Cadets per Batch",
-      "description": "A rigorously engineered training program dedicated to mastering both Mathematics (Paper 1 - 300 Marks) and General Ability Test (Paper 2 - 600 Marks). Led by experienced ex-faculty and defense mentors with chapter-wise tests, daily current affairs analysis, and weekly UPSC-pattern mock tests.",
+      "timings": "08:30 AM - 05:30 PM (Ground & Classroom)",
+      "badge": "10-Day Intensive",
+      "batchSize": "Limited to 25 Cadets per Batch",
+      "description": "Train under experienced DIPR qualified Ex-Assessors through a result oriented, intensive training programme designed for maximum learning in minimum time on our authentic GTO ground.",
       "highlights": [
-        "Complete UPSC NDA Syllabus coverage (Maths + GAT)",
-        "Daily 200+ Practice MCQs & Short-cut Tricks for Mathematics",
-        "Special English Fluency & Defence Current Affairs classes",
-        "Weekly 900-Marks OMR-based Full Length Mock Exams",
-        "Free SSB Screening & Physical Conditioning orientation included",
-        "Hostel, Mess & Dedicated Library facility with 24x7 Wi-Fi"
+        "PPDT & Stage I Preparation – Story writing, narration, and many live group discussion practices.",
+        "PIQ Analysis – Personalised interview questions based on your profile, background, and experiences.",
+        "Mock Interviews – Realistic one-to-one interview sessions with expert feedback.",
+        "Psychology Tests – Practice for TAT, WAT, SRT and SDT.",
+        "GTO Guidance – Practice of GD, GPE, Lecturette and live practical GTO tasks on ground.",
+        "Defence Awareness – Updates on current affairs, military affairs and national issues.",
+        "Performance Analysis – Detailed feedback to identify your strengths and areas for improvement.",
+        "Personal Mentorship – Individual guidance, doubt-solving and progress tracking throughout the programme."
       ],
-      "syllabus": [
-        {
-          "moduleName": "Mathematics (Paper I - 300 Marks)",
-          "topics": [
-            "Trigonometry & Inverse",
-            "Calculus (Diff & Integral)",
-            "Matrices & Determinants",
-            "2D & 3D Geometry",
-            "Vectors, Probability & Statistics"
-          ]
-        },
-        {
-          "moduleName": "English (Paper II Part A - 200 Marks)",
-          "topics": [
-            "Grammar & Spotting Errors",
-            "Vocabulary & Synonyms/Antonyms",
-            "Idioms & Phrases",
-            "Comprehension passages",
-            "Sentence Ordering & Cloze Test"
-          ]
-        },
-        {
-          "moduleName": "General Knowledge & Science (Paper II Part B - 400 Marks)",
-          "topics": [
-            "Physics & Chemistry Concepts",
-            "General Science & Biology",
-            "Indian History & Freedom Struggle",
-            "Geography & Defense Geo-strategy",
-            "Indian Polity, Economy & International Affairs"
-          ]
-        }
-      ],
-      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
       "isActive": true,
       "_id": "c_1",
-      "createdAt": "2026-10-20T06:47:19.551Z"
+      "createdAt": "2026-10-27T10:00:00.000Z"
     },
     {
-      "title": "SSB 14-Days Comprehensive Interview Bootcamp",
-      "code": "SSB-14DAYS-MASTERCLASS",
-      "subtitle": "Rigorous 14-Day Simulation by Ex-SSB Assessors (IO, GTO, Psych)",
-      "category": "SSB 14 Days Training",
-      "duration": "14 Days Residential / Non-Residential",
-      "fees": 24500,
-      "batchStartDate": "Batches begin every Monday",
-      "timings": "06:00 AM - 07:30 PM (End-to-End Military Routine)",
-      "badge": "Assessed by Ex-Col / Brigadiers",
-      "batchSize": "20 Candidates per Sub-group",
-      "description": "India's premier SSB training capsule conducted on a real full-scale replica GTO obstacle ground. Personalized psych dossier analysis, 1-on-1 mock interviews by retired Board Presidents and Interviewing Officers, and daily group discussions.",
+      "title": "Online Mode SSB (20-Day Interactive)",
+      "code": "SSB-ONLINE-20D",
+      "subtitle": "20-Day Intensive SSB Preparation Online Interactive Programme",
+      "category": "Online Mode SSB",
+      "duration": "20-Day Intensive",
+      "fees": 18000,
+      "batchStartDate": "Starts 1st & 15th of Every Month",
+      "timings": "06:00 PM - 09:00 PM (Live Virtual)",
+      "badge": "20-Day Intensive",
+      "batchSize": "Limited to 25 Cadets per Batch",
+      "description": "Comprehensive 20-day online interactive training designed for aspirants preparing from anywhere in India with live sessions, dossier checks, and 1-on-1 mock interviews.",
       "highlights": [
-        "Day-1 Screening Mastery: OIR Tests (Verbal/Non-Verbal) & PPDT Narration / Discussion",
-        "Complete Psychological Battery: TAT (12 stories), WAT (60 words), SRT (60 situations), Self Description (SD)",
-        "100% Outdoor GTO Ground: PGT, HGT, Snake Race, FGT, Command Task & 10 Individual Obstacles",
-        "Personal Mock Interview with individual feedback & PIQ Form optimization",
-        "Daily Current Affairs, Group Discussions (GD), and Military Lecturettes with video feedback",
-        "Full Board Conference Simulation with personalized Officers' assessment report"
-      ],
-      "syllabus": [
-        {
-          "moduleName": "Phase 1: Stage I Screening (Day 1 - 2)",
-          "topics": [
-            "OIR Speed Drills & Techniques",
-            "Perception & Story Writing on hazy slides",
-            "Effective Narration within 1 Minute",
-            "Group Discussion & Group Consensus tactics"
-          ]
-        },
-        {
-          "moduleName": "Phase 2: Psychological Testing (Day 3 - 5)",
-          "topics": [
-            "TAT (Thematic Apperception Test) positive officer attributes",
-            "WAT speed & spontaneous response formulation",
-            "SRT realistic decision-making & resourcefulness",
-            "SD (Self Description) authenticity & self-awareness"
-          ]
-        },
-        {
-          "moduleName": "Phase 3: GTO Ground Testing (Day 6 - 9)",
-          "topics": [
-            "PGT (Progressive Group Task) fulcrum & cantilever techniques",
-            "HGT (Half Group Task) & Snake Race teamwork",
-            "Lecturette topic selection & commanding delivery",
-            "Individual Obstacles (Tiger Leap, Tarzan Swing, Commando Walk)",
-            "Command Task leadership under time pressure"
-          ]
-        },
-        {
-          "moduleName": "Phase 4: Interview & Conference (Day 10 - 14)",
-          "topics": [
-            "Personal Interview with Ex-IO (45-60 min)",
-            "PIQ (Personal Information Questionnaire) audit",
-            "Rapid fire questions on Academics, Family, Hobbies & Current Geopolitics",
-            "Conference Day demeanor & final recommendation advice"
-          ]
-        }
+        "PPDT/STAGE I Preparation – Story writing, narration and group discussion practice.",
+        "PIQ Analysis – Personalised interview questions based on your profile and experiences.",
+        "Mock Interviews – Realistic one-to-one interview simulations with expert feedback.",
+        "Psychology Tests – Practice for TAT, WAT, SRT and SDT.",
+        "GTO Guidance – GD, GPE, Lecturette and GTO task strategies.",
+        "Defence Awareness – Regular updates on current affairs, military affairs and national security.",
+        "Performance Analysis – Detailed feedback to identify strengths and areas for improvement.",
+        "Personal Mentorship – Individual guidance, doubt-solving and progress tracking."
       ],
       "image": "https://images.unsplash.com/photo-1579208575657-c595a05383b7?auto=format&fit=crop&w=800&q=80",
       "isActive": true,
       "_id": "c_2",
-      "createdAt": "2026-10-20T06:47:19.551Z"
+      "createdAt": "2026-10-27T10:00:00.000Z"
+    },
+    {
+      "title": "NDA & CDS Written Target Batch",
+      "code": "NDA-CDS-WRITTEN-2026",
+      "subtitle": "Comprehensive Mathematics, English & General Knowledge Programme",
+      "category": "NDA & CDS Written",
+      "duration": "Target Batch 2026",
+      "fees": 38500,
+      "batchStartDate": "Starts 1st & 15th of Every Month",
+      "timings": "08:30 AM - 02:30 PM (Daily 6 Hours)",
+      "badge": "Target 2026 Batch",
+      "batchSize": "Limited to 35 Cadets per Batch",
+      "description": "Master the UPSC NDA & CDS written exam with shortcut mathematical formulas, intensive GAT coverage and full-length OMR mocks by defense experts.",
+      "highlights": [
+        "Complete UPSC Syllabus Coverage for Mathematics & GAT.",
+        "Daily 200+ Practice MCQs & Short-cut Tricks for Mathematics.",
+        "Weekly 900-Marks OMR-based Full Length Mock Exams.",
+        "Daily updates on current affairs, military affairs and national security.",
+        "Free SSB Screening, OIR drills and personality orientation included.",
+        "Personal mentorship and performance analysis."
+      ],
+      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
+      "isActive": true,
+      "_id": "c_3",
+      "createdAt": "2026-10-27T10:00:00.000Z"
     }
   ],
   "notices": [
