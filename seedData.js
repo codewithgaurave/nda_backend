@@ -117,7 +117,7 @@ const initialNotices = [
     isActive: true
   },
   {
-    title: 'SSB 14-Days Intensive Bootcamp: Next Batch Commences This Monday',
+    title: 'SSB 10-Days Intensive Bootcamp: Next Batch Commences This Monday',
     category: 'New Batch Alert',
     date: '28 Oct 2026',
     description: 'New batch for candidates with upcoming SSB Call Letters (Army / Navy / Air Force Selection Boards). On-ground GTO obstacles slots are strictly limited to maintain individual mentoring.',

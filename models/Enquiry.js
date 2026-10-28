@@ -20,7 +20,7 @@ const enquirySchema = new mongoose.Schema({
   courseInterested: {
     type: String,
     required: true,
-    default: 'SSB 14 Days Training'
+    default: 'SSB 10 Days Training'
   },
   city: {
     type: String,

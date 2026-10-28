@@ -26,6 +26,7 @@ const courseSchema = new mongoose.Schema({
       'SSB Online',
       'Written Exam',
       'NDA Written',
+      'SSB 10 Days Training',
       'SSB 14 Days Training',
       'CDS / AFCAT',
       'Foundation'
