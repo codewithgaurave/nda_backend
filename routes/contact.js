@@ -4,12 +4,12 @@ const dataService = require('../utils/dataHelper');
 const authMiddleware = require('../middleware/auth');
 
 // POST /api/contact (Public - Contact Us / Send us a Message Form)
-// Required Fields: name, email, phone, course (or courseInterested)
-// Optional Field: message
+// Required Fields: name, email, phone
+// Optional Fields: course, message
 router.post('/', async (req, res) => {
   try {
     const { name, email, phone, message } = req.body;
-    const course = req.body.course || req.body.courseInterested;
+    const course = req.body.course || req.body.courseInterested || 'General Enquiry';
 
     if (!name || !name.trim()) {
       return res.status(400).json({ success: false, message: 'Your Name is required.' });
@@ -19,9 +19,6 @@ router.post('/', async (req, res) => {
     }
     if (!phone || !phone.trim()) {
       return res.status(400).json({ success: false, message: 'Phone Number is required.' });
-    }
-    if (!course || !course.trim()) {
-      return res.status(400).json({ success: false, message: 'Please select a Course.' });
     }
 
     const payload = {

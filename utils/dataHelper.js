@@ -4,6 +4,7 @@ const Enquiry = require('../models/Enquiry');
 const Notice = require('../models/Notice');
 const Blog = require('../models/Blog');
 const Gallery = require('../models/Gallery');
+const Candidate = require('../models/Candidate');
 const Admin = require('../models/Admin');
 const Contact = require('../models/Contact');
 const { getIsMongoConnected, readLocalStore, writeLocalStore } = require('../config/db');
@@ -409,6 +410,57 @@ const dataService = {
     const idx = store.contacts.findIndex(c => c._id === id);
     if (idx !== -1) {
       const removed = store.contacts.splice(idx, 1);
+      writeLocalStore(store);
+      return removed[0];
+    }
+    return null;
+  },
+
+  // --- CANDIDATES / SELECTIONS ---
+  async getCandidates() {
+    if (getIsMongoConnected()) {
+      return await Candidate.find().sort({ createdAt: -1 });
+    }
+    const store = readLocalStore();
+    return store.candidates || [];
+  },
+
+  async createCandidate(data) {
+    if (getIsMongoConnected()) {
+      return await Candidate.create(data);
+    }
+    const store = readLocalStore();
+    if (!store.candidates) store.candidates = [];
+    const newCandidate = { ...data, _id: 'cand_' + Date.now(), createdAt: new Date().toISOString() };
+    store.candidates.unshift(newCandidate);
+    writeLocalStore(store);
+    return newCandidate;
+  },
+
+  async updateCandidate(id, data) {
+    if (getIsMongoConnected()) {
+      return await Candidate.findByIdAndUpdate(id, data, { new: true });
+    }
+    const store = readLocalStore();
+    if (!store.candidates) store.candidates = [];
+    const idx = store.candidates.findIndex(c => c._id === id);
+    if (idx !== -1) {
+      store.candidates[idx] = { ...store.candidates[idx], ...data, updatedAt: new Date().toISOString() };
+      writeLocalStore(store);
+      return store.candidates[idx];
+    }
+    return null;
+  },
+
+  async deleteCandidate(id) {
+    if (getIsMongoConnected()) {
+      return await Candidate.findByIdAndDelete(id);
+    }
+    const store = readLocalStore();
+    if (!store.candidates) store.candidates = [];
+    const idx = store.candidates.findIndex(c => c._id === id);
+    if (idx !== -1) {
+      const removed = store.candidates.splice(idx, 1);
       writeLocalStore(store);
       return removed[0];
     }

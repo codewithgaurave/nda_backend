@@ -482,5 +482,13 @@
       "status": "Pending",
       "createdAt": "2026-10-20T11:55:07.540Z"
     }
+  ],
+  "candidates": [
+    {
+      "photoUrl": "http://localhost:5001/uploads/c475632e-e34f-4622-81ea-a5d347a83389-1793258041295-640146.png",
+      "name": "",
+      "_id": "cand_1793258042866",
+      "createdAt": "2026-10-29T07:14:02.867Z"
+    }
   ]
 }

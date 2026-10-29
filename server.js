@@ -10,6 +10,7 @@ const enquiryRoutes = require('./routes/enquiries');
 const noticeRoutes = require('./routes/notices');
 const blogRoutes = require('./routes/blogs');
 const galleryRoutes = require('./routes/gallery');
+const candidateRoutes = require('./routes/candidates');
 const dashboardRoutes = require('./routes/dashboard');
 const uploadRoutes = require('./routes/upload');
 const contactRoutes = require('./routes/contact');
@@ -37,6 +38,7 @@ app.use('/api/contact', contactRoutes);
 app.use('/api/notices', noticeRoutes);
 app.use('/api/blogs', blogRoutes);
 app.use('/api/gallery', galleryRoutes);
+app.use('/api/candidates', candidateRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/upload', uploadRoutes);
 

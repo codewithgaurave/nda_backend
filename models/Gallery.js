@@ -8,14 +8,9 @@ const gallerySchema = new mongoose.Schema({
   },
   category: {
     type: String,
-    enum: [
-      'GTO Obstacle Ground',
-      'SSB Mock Interview',
-      'Smart Classrooms',
-      'Recommended Cadets',
-      'Physical Training & Drill'
-    ],
-    default: 'GTO Obstacle Ground'
+    required: true,
+    trim: true,
+    default: 'General'
   },
   imageUrl: {
     type: String,
